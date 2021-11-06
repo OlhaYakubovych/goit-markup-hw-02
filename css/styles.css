@@ -4,6 +4,7 @@
   --main-text-color: #757575;
   --accent-color: #2196f3;
   --main-btn-color: #ffffff;
+  --second-btn-color: #212121;
   --header-text-color: #212121;
 }
 
@@ -75,7 +76,7 @@ body {
   line-height: 1.14;
   font-style: normal;
   letter-spacing: 0.02em;
-  color: var(--header-text-color);
+  color: var(--main-text-color);
 }
 
 .header-contacts-link:hover,
@@ -83,6 +84,10 @@ body {
   color: var(--accent-color);
 }
 /* -----------------------Герой--------------------- */
+
+.hero {
+  background-color: #2f303a;
+}
 
 .hero-title {
   font-weight: 900;
@@ -92,7 +97,6 @@ body {
   text-align: center;
   text-transform: uppercase;
   color: var(--main-title-color);
-  background-color: violet;
 }
 
 .hero-btn {
@@ -108,9 +112,13 @@ body {
   color: var(--main-btn-color);
 }
 
-/* -----------------------О нас--------------------- */
+/* -----------------------Особенности--------------------- */
 
-.about-second-title {
+.features {
+  background-color: #ffffff;
+}
+
+.features-second-title {
   font-weight: bold;
   font-size: 14px;
   line-height: 1.14;
@@ -119,7 +127,7 @@ body {
   color: var(--second-title-color);
 }
 
-.about-second-text {
+.features-second-text {
   font-weight: normal;
   font-size: 14px;
   line-height: 1.71;
@@ -129,7 +137,11 @@ body {
 
 /* -----------------------Род занятий--------------------- */
 
-.occupation-title {
+.about {
+  background: #ffffff;
+}
+
+.about-title {
   font-weight: bold;
   font-size: 36px;
   line-height: 1.17;
@@ -139,6 +151,10 @@ body {
 }
 
 /* -----------------------Сотрудники-------------------- */
+
+.team {
+  background: #f5f4fa;
+}
 
 .team-title {
   font-weight: bold;
@@ -165,13 +181,14 @@ body {
   color: var(--main-text-color);
 }
 
-/* -----------------------Адресс-------------------- */
+/* -------------------Адресс------------------------ */
 
 .footer {
-  background-color: violet;
+  background-color: #2f303a;
 }
 
 .footer-link {
+  font-style: normal;
   font-weight: normal;
   font-size: 14px;
   line-height: 1.71;
@@ -180,9 +197,45 @@ body {
 }
 
 .footer-link-second {
+  font-style: normal;
   font-weight: normal;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
+}
+
+/* ------------------------------Страница-ПОРТФОЛИО-------------------------------- */
+
+/* -------------------Наши проэкты------------------------ */
+
+.btn-button {
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--second-btn-color);
+}
+
+.btn-button:focus {
+  background-color: var(--accent-color);
+  color: var(--main-btn-color);
+}
+
+.pic-title {
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: var(--second-title-color);
+}
+
+.pic-text {
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.03em;
+  color: var(--main-text-color);
 }
