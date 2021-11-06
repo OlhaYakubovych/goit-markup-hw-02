@@ -100,6 +100,7 @@ body {
 }
 
 .hero-btn {
+  cursor: pointer;
   background: #2196f3;
   font-family: inherit;
   font-weight: bold;
@@ -128,7 +129,6 @@ body {
 }
 
 .features-second-text {
-  font-weight: normal;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
@@ -174,7 +174,6 @@ body {
 }
 
 .team-item-text {
-  font-weight: normal;
   font-size: 16px;
   line-height: 1.19;
   letter-spacing: 0.03em;
@@ -210,6 +209,7 @@ body {
 /* -------------------Наши проэкты------------------------ */
 
 .btn-button {
+  cursor: pointer;
   font-family: inherit;
   font-weight: 500;
   font-size: 16px;
@@ -233,7 +233,6 @@ body {
 }
 
 .pic-text {
-  font-weight: normal;
   font-size: 16px;
   line-height: 1.87;
   letter-spacing: 0.03em;
