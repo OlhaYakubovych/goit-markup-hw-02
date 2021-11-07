@@ -170,6 +170,24 @@ body {
   background-color: var(--second-background-color);
 }
 
+.footer-logo-accent {
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 1.19;
+  color: var(--accent-color);
+}
+
+.footer-logo-second-accent {
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  color: var(--main-title-color);
+}
+
 .footer-link {
   font-style: normal;
   font-weight: normal;
@@ -179,7 +197,7 @@ body {
 
 .footer-link:hover,
 .footer-link:focus {
-  color: var(--accent-color);
+  color: var(--main-title-color);
 }
 
 .footer-link-second {
@@ -191,7 +209,7 @@ body {
 
 .footer-link-second:hover,
 .footer-link-second:focus {
-  color: var(--accent-color);
+  color: var(--main-title-color);
 }
 
 /* ------------------------------Страница-ПОРТФОЛИО-------------------------------- */
