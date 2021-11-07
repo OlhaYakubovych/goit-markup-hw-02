@@ -192,23 +192,11 @@ body {
   font-style: normal;
   font-weight: normal;
   line-height: 1.71;
-  color: #ffffff;
+  color: var(--third-title-color);
 }
 
 .footer-link:hover,
 .footer-link:focus {
-  color: var(--main-title-color);
-}
-
-.footer-link-second {
-  font-style: normal;
-  font-weight: normal;
-  line-height: 1.71;
-  color: var(--third-title-color);
-}
-
-.footer-link-second:hover,
-.footer-link-second:focus {
   color: var(--main-title-color);
 }
 
